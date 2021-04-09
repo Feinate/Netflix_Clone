@@ -1,4 +1,4 @@
-package com.example.netflix.ui.theme
+package com.example.netflix.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
