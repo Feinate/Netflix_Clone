@@ -1,0 +1,2 @@
+com/example/netflix/BuildConfig.java
+ com.example.netflix.BuildConfig
