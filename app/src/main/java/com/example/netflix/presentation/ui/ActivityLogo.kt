@@ -2,8 +2,10 @@ package com.example.netflix.presentation.ui
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
 import android.view.WindowManager
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -35,11 +37,10 @@ class ActivityLogo : ComponentActivity() {
         getWindow().decorView.setSystemUiVisibility(window)
 
         Executors.newSingleThreadScheduledExecutor().schedule({
-            val intent = Intent().apply {
-                Intent(this@ActivityLogo, ActivityHome::class.java)
-            }
+            Log.i("errorrr", "bon")
+            val intent = Intent(this, ActivityHome::class.java)
             startActivity(intent)
-        }, 1, TimeUnit.SECONDS)
+        }, 1350, TimeUnit.MILLISECONDS)
 
     }
 }

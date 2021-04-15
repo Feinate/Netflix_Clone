@@ -7,24 +7,21 @@ import retrofit2.Retrofit
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.converter.gson.GsonConverterFactory
 
-class RetrofitInstance {
-    companion object RetrofitInstance {
+object RetrofitInstance {
+    private val retrofit by lazy {
+        val logging = HttpLoggingInterceptor()
+        logging.setLevel(HttpLoggingInterceptor.Level.BODY)
+        val client = OkHttpClient.Builder()
+            .addInterceptor(logging)
+            .build()
+        Retrofit.Builder()
+            .baseUrl(BASE_URL_MOVIE)
+            .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
+            .client(client)
+            .build()
+    }
 
-        private val retrofit by lazy {
-            val logging = HttpLoggingInterceptor()
-            logging.setLevel(HttpLoggingInterceptor.Level.BODY)
-            val client = OkHttpClient.Builder()
-                .addInterceptor(logging)
-                .build()
-            Retrofit.Builder()
-                .baseUrl(BASE_URL_MOVIE)
-                .addConverterFactory(GsonConverterFactory.create())
-                .client(client)
-                .build()
-        }
-
-        val api by lazy {
-            retrofit.create(RetrofitService::class.java)
-        }
+    val api by lazy {
+        retrofit.create(RetrofitService::class.java)
     }
 }

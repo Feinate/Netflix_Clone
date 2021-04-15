@@ -1,14 +1,19 @@
 package com.example.netflix.network
 
-import com.example.netflix.model.ResponseModel
-import com.example.netflix.utils.Constants.URL_LIST_POPULAR_MOVIE
+import com.example.netflix.domain.model.Movie
+import com.example.netflix.network.Response.MovieResponse
+import com.example.netflix.network.model.MovieDto
+import retrofit2.Call
 import retrofit2.Response
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 interface RetrofitService {
 
-    @GET(URL_LIST_POPULAR_MOVIE)
-    suspend fun getPopularMovies(): Response<List<ResponseModel>>
-
-
+    @GET("3/movie/popular")
+    suspend fun getPopularMovies(
+        @Query("api_key") api_key: String,
+        @Query("language") language: String,
+        @Query("page") page: Int
+    ): MovieResponse
 }

@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.Dp
@@ -31,21 +32,14 @@ fun NetflixLogoAnimation() {
 @Composable
 fun NetflixLogo() {
     val resource: Painter = painterResource(id = R.drawable.netflix_logo)
-//    var logoState by remember { mutableStateOf(sizeState.Normal) }
-//    val transition = updateTransition(targetState = logoState)
-//    val size = transition.animateDp(
-//        tween(delayMillis = 1000, durationMillis = 2000)
-//    ) {
-//        if (logoState) 200.dp else 100.dp
-//    }
-//
-//    Executors.newSingleThreadScheduledExecutor().schedule({
-//        logoState.
-//    }, 1, TimeUnit.SECONDS)
-
     Image(
         painter = resource,
-        modifier = Modifier.size(250.dp),
+        modifier = Modifier
+            .size(250.dp)
+//            .graphicsLayer {
+//                scaleX = animatedProgress.value
+//                scaleY = animatedProgress.value }
+        ,
         contentDescription = "Netflix_logo"
     )
 }
