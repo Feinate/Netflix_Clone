@@ -6,7 +6,9 @@ import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.PaintDrawable
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.*
@@ -22,6 +24,7 @@ import coil.ImageLoader
 import coil.request.ImageRequest
 import com.example.netflix.R
 import com.google.accompanist.coil.CoilImage
+//import com.google.accompanist.coil.CoilImage
 import kotlinx.coroutines.launch
 
 @Composable
@@ -38,17 +41,16 @@ fun MovieCard(
             )
             .height(160.dp)
             .width(110.dp),
-        shape = MaterialTheme.shapes.medium
+        shape = RoundedCornerShape(6.dp)
     ) {
-//        Box(modifier = Modifier.height(125.dp)) {
         CoilImage(
             modifier = Modifier.fillMaxSize(),
             data = imageUrl,
             contentScale = ContentScale.Crop,
-            contentDescription = title
+            contentDescription = title,
+            fadeIn = true
         ) {
-
+            Box(Modifier.matchParentSize().background(Color.Black))
         }
-//        }
     }
 }

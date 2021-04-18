@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-parcelize'
     id "kotlin-kapt"
+    id "com.google.gms.google-services"
 }
 
 android {
@@ -56,7 +57,11 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
     implementation "androidx.compose.runtime:runtime-livedata:$compose_version"
     implementation "androidx.compose.runtime:runtime:$compose_version"
-    implementation 'androidx.activity:activity-compose:1.3.0-alpha05'
+    implementation 'androidx.activity:activity-compose:1.3.0-alpha06'
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:27.0.0')
+    implementation 'com.google.firebase:firebase-auth-ktx'
 
     //ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1"
@@ -70,6 +75,9 @@ dependencies {
     // Jetpack Compose Integration
     implementation "androidx.navigation:navigation-compose:1.0.0-alpha10"
 
+    //Video player
+    implementation 'com.google.android.exoplayer:exoplayer:2.11.7'
+
     //Coil
     implementation "io.coil-kt:coil:1.1.1"
     implementation "com.google.accompanist:accompanist-coil:0.6.2"
@@ -82,6 +90,9 @@ dependencies {
     //Okhttp3
     implementation "com.squareup.okhttp3:okhttp:4.9.0"
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+
+    //Analytics
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 
     //unit test
     testImplementation "junit:junit:4.13.2"

@@ -11,6 +11,9 @@ import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -20,11 +23,13 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.*
+import com.example.netflix.R
 import com.example.netflix.network.Response.MovieResponse
 import com.example.netflix.presentation.MoviesViewModels
 import com.example.netflix.presentation.theme.NetflixGrey
-import com.example.netflix.presentation.ui.HomeScreen
+import com.example.netflix.presentation.ui.home.HomeScreen
 import com.example.netflix.utils.Screen
+import java.time.format.TextStyle
 
 @ExperimentalComposeUiApi
 @Composable
@@ -49,15 +54,15 @@ fun bottomAppNavigation(
     navController: NavHostController,
     items: List<Screen>
 ) {
-    androidx.compose.material.BottomNavigation(
-        backgroundColor = NetflixGrey
+    BottomNavigation(
+        backgroundColor = NetflixGrey,
     ) {
         val navBackStackEntry by navController.currentBackStackEntryAsState()
         val currentRoute = navBackStackEntry?.arguments?.getString(KEY_ROUTE)
 
         items.forEach {
             BottomNavigationItem(
-                unselectedContentColor = Color.Gray,
+                unselectedContentColor = Color.DarkGray,
                 selectedContentColor = Color.White,
                 icon = { Icon(imageVector = it.icon, contentDescription = null)},
                 selected = currentRoute == it.route,

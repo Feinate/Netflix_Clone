@@ -1,90 +1,118 @@
 [
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_strangedeux.jpg.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\drawable-v24\\strangedeux.jpg"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\font_netflixsansblack.ttf.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\font\\netflixsansblack.ttf"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\raw_endgamecaptain.mp4.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\raw\\endgamecaptain.mp4"
     },
     {
         "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\drawable_netflix_logo.png.flat",
         "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\drawable\\netflix_logo.png"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\font_netflixsansbold.ttf.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\font\\netflixsansbold.ttf"
-    },
-    {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\font_netflixsanslight.ttf.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\font\\netflixsanslight.ttf"
-    },
-    {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic__netflix.xml.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\drawable\\ic__netflix.xml"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\font_netflixsansregular.ttf.flat",
         "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\font\\netflixsansregular.ttf"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_strange.jpg.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\drawable-v24\\strange.jpg"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\font_netflixsansblack.ttf.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\font\\netflixsansblack.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\font_netflixsansbold.ttf.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\font\\netflixsansbold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\font_netflixsanslight.ttf.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\font\\netflixsanslight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_start.jpg.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\drawable-v24\\background_start.jpg"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\font_netflixsansmedium.ttf.flat",
         "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\font\\netflixsansmedium.ttf"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_screen.xml.flat",
-        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\drawable\\splash_screen.xml"
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     }
 ]

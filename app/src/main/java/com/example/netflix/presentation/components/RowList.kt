@@ -38,7 +38,6 @@ fun ListMovies(text: String, movies: List<Movie?>) {
                 .background(Color.Transparent)
         ) {
             itemsIndexed(movies) { index, movie ->
-                Log.i("try", "https://image.tmdb.org/t/p/original${movie!!.poster_path.toString()}")
                 MovieCard(title = movie!!.original_title!!, imageUrl = "https://image.tmdb.org/t/p/original${movie.poster_path}")
             }
         }

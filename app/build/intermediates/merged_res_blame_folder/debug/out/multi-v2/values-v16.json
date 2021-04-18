@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\mehdi\\AndroidStudioProjects\\Netflix\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mehdi\\.gradle\\caches\\transforms-3\\0c9517aee6c52bcbb4db99ae5a779c2e\\transformed\\core-1.5.0-beta01\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mehdi\\.gradle\\caches\\transforms-3\\0930622d1bd2153ff4c2d5c13ebc7fe2\\transformed\\core-1.5.0-beta01\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mehdi\\.gradle\\caches\\transforms-3\\210250549b8c5bcb913888d27c3f506f\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mehdi\\.gradle\\caches\\transforms-3\\aaee4f3d20bd0022db4a642f527950be\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

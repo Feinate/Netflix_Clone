@@ -1,7 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Netflix" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Netflix" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowBackground">@color/black</item>
     </style>
 
     <style name="Theme.Netflix.NoActionBar">

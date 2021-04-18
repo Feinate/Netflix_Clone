@@ -16,4 +16,12 @@ class MoviesViewModels() : ViewModel() {
         )
         emit(retrievedMovies)
     }
+    val news = liveData(Dispatchers.IO) {
+        val retrievedMovies = repository.getPopularMovies(
+            api_key = "66141d569d3691aa6514ae9e6dcda50a",
+            language = "en-Us",
+            page = 2
+        )
+        emit(retrievedMovies)
+    }
 }
